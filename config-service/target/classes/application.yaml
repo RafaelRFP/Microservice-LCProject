@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          default-label: config-server
-          uri: https://github.com/RafaelRFP/service-config
+          default-label: config-service
+          uri: https://github.com/RafaelRFP/Microservice-LCProject
           search-paths: config-data
   application:
     name: config-service
