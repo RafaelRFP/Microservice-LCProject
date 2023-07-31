@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: cirtuit-breaker
+          default-label: zipkin-sleuth
           uri: https://github.com/RafaelRFP/Microservice-LCProject
           search-paths: config-data
   application:
