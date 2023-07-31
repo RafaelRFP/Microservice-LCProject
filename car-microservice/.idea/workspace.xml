@@ -5,22 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bea1925-6dc1-43f9-a5a3-3946a99c5204" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../bike-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-microservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/BikeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/BikeServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/controller/BikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/controller/BikeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/entity/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/entity/Bike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/repository/BikeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/repository/BikeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/service/BikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/service/BikeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/BikeServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/controller/BikeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/entity/Bike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/repository/BikeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/service/BikeService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/CarServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/CarServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/controller/CarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/entity/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/repository/CarRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/service/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-data/bike-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/bike-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-data/car-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/car-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-data/user-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/user-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/CarServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/controller/CarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/entity/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/repository/CarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/service/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/carservice/CarServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/carservice/controller/CarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/carservice/entity/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/carservice/repository/CarRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tutorial/carservice/service/CarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-microservice/src/main/java/com/RRF/userservice/feignclients/BikeFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-microservice/src/main/java/com/RRF/userservice/feignclients/BikeFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-microservice/src/main/java/com/RRF/userservice/feignclients/CarFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-microservice/src/main/java/com/RRF/userservice/feignclients/CarFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-microservice/src/main/java/com/RRF/userservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../user-microservice/src/main/java/com/RRF/userservice/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-microservice/target/classes/com/RRF/userservice/UserServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-microservice/target/classes/com/RRF/userservice/UserServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-microservice/target/classes/com/RRF/userservice/feignclients/BikeFeignClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-microservice/target/classes/com/RRF/userservice/feignclients/BikeFeignClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-microservice/target/classes/com/RRF/userservice/feignclients/CarFeignClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-microservice/target/classes/com/RRF/userservice/feignclients/CarFeignClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-microservice/target/classes/com/RRF/userservice/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../user-microservice/target/classes/com/RRF/userservice/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +59,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.com.RRF.carservice.CarServiceApplication">
     <configuration name="CarServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorial.carservice.CarServiceApplication" />
       <module name="car-service" />
@@ -65,8 +73,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.RRF.carservice.CarServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.RRF.carservice.CarServiceApplication" />
+      <module name="car-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.RRF.carservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.RRF.carservice.CarServiceApplication" />
         <item itemvalue="Application.CarServiceApplication" />
       </list>
     </recent_temporary>
