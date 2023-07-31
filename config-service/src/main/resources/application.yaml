@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: gateway
+          default-label: cirtuit-breaker
           uri: https://github.com/RafaelRFP/Microservice-LCProject
           search-paths: config-data
   application:

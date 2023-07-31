@@ -4,7 +4,9 @@ import com.RRF.userservice.entity.User;
 import com.RRF.userservice.model.Bike;
 import com.RRF.userservice.model.Car;
 import com.RRF.userservice.service.UserService;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -40,6 +42,7 @@ public class UserController {
         return ResponseEntity.ok(userNew);
     }
 
+    @CircuitBreaker(name = "carsCB", fallbackMethod = "fallbackGetCars")
     @GetMapping("/cars/{userId}")
     public ResponseEntity<List<Car>> getCars(@PathVariable("userId") int userId) {
         User user = userService.getUserById(userId);
@@ -49,6 +52,16 @@ public class UserController {
         return ResponseEntity.ok(cars);
     }
 
+    @CircuitBreaker(name = "carsCB", fallbackMethod = "fallbackSaveCar")
+    @PostMapping("/savecar/{userId}")
+    public ResponseEntity<Car> saveCar(@PathVariable("userId") int userId, @RequestBody Car car) {
+        if(userService.getUserById(userId) == null)
+            return ResponseEntity.notFound().build();
+        Car carNew = userService.saveCar(userId, car);
+        return ResponseEntity.ok(car);
+    }
+
+    @CircuitBreaker(name = "bikesCB", fallbackMethod = "fallbackGetBikes")
     @GetMapping("/bikes/{userId}")
     public ResponseEntity<List<Bike>> getBikes(@PathVariable("userId") int userId) {
         User user = userService.getUserById(userId);
@@ -58,14 +71,7 @@ public class UserController {
         return ResponseEntity.ok(bikes);
     }
 
-    @PostMapping("/savecar/{userId}")
-    public ResponseEntity<Car> saveCar(@PathVariable("userId") int userId, @RequestBody Car car) {
-        if(userService.getUserById(userId) == null)
-            return ResponseEntity.notFound().build();
-        Car carNew = userService.saveCar(userId, car);
-        return ResponseEntity.ok(car);
-    }
-
+    @CircuitBreaker(name = "bikesCB", fallbackMethod = "fallbackSaveBike")
     @PostMapping("/savebike/{userId}")
     public ResponseEntity<Bike> saveBike(@PathVariable("userId") int userId, @RequestBody Bike bike) {
         if(userService.getUserById(userId) == null)
@@ -74,10 +80,31 @@ public class UserController {
         return ResponseEntity.ok(bike);
     }
 
+    @CircuitBreaker(name = "allCB", fallbackMethod = "fallbackGetAll")
     @GetMapping("/getAll/{userId}")
     public ResponseEntity<Map<String, Object>> getAllVehicles(@PathVariable("userId") int userId) {
         Map<String, Object> result = userService.getUserAndVehicles(userId);
         return ResponseEntity.ok(result);
     }
 
+    //Métodos de los Circuit Breaker definidos cómo fallbackGetCars, fallbackSaveCar, fallbackGetBikes, fallbackSaveBike
+    private ResponseEntity<List<Car>> fallbackGetCars(@PathVariable("userId") int userId, RuntimeException e) {
+        return new ResponseEntity("El usuario " + userId + " tiene los coches en el taller.", HttpStatus.OK);
+    }
+
+    private ResponseEntity<Car> fallbackSaveCar(@PathVariable("userId") int userId, @RequestBody Car car, RuntimeException e) {
+        return new ResponseEntity("El usuario " + userId + " tiene dinero para pagar el coche.", HttpStatus.OK);
+    }
+
+    private ResponseEntity<List<Bike>> fallbackGetBikes(@PathVariable("userId") int userId, RuntimeException e) {
+        return new ResponseEntity("El usuario " + userId + " tiene las motos en el taller.", HttpStatus.OK);
+    }
+
+    private ResponseEntity<Bike> fallbackSaveBike(@PathVariable("userId") int userId, @RequestBody Bike bike, RuntimeException e) {
+        return new ResponseEntity("El usuario " + userId + " tiene dinero para pagar la moto.", HttpStatus.OK);
+    }
+
+    private ResponseEntity<Map<String, Object>> fallbackGetAll(@PathVariable("userId") int userId, RuntimeException e) {
+        return new ResponseEntity("El usuario " + userId + " tiene los vehículos en el taller.", HttpStatus.OK);
+    }
 }
