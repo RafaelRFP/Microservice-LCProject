@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bea1925-6dc1-43f9-a5a3-3946a99c5204" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../config-service/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-microservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/BikeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/BikeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/controller/BikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/controller/BikeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/entity/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/entity/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/repository/BikeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/repository/BikeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/service/BikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-microservice/src/main/java/com/RRF/bikeservice/service/BikeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/CarServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/CarServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/entity/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/repository/CarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RRF/carservice/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-data/bike-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/bike-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-data/car-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/car-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-data/user-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/user-service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

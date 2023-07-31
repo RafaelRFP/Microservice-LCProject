@@ -1,7 +1,7 @@
-package com.tutorial.bikeservice.service;
+package com.RRF.bikeservice.service;
 
-import com.tutorial.bikeservice.entity.Bike;
-import com.tutorial.bikeservice.repository.BikeRepository;
+import com.RRF.bikeservice.entity.Bike;
+import com.RRF.bikeservice.repository.BikeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

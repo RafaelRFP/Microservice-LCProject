@@ -1,4 +1,4 @@
-package com.tutorial.bikeservice.entity;
+package com.RRF.bikeservice.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

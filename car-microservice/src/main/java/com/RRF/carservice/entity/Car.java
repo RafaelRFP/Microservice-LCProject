@@ -1,4 +1,4 @@
-package com.tutorial.carservice.entity;
+package com.RRF.carservice.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

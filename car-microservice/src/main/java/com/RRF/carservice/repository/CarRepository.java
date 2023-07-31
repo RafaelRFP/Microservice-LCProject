@@ -1,6 +1,6 @@
-package com.tutorial.carservice.repository;
+package com.RRF.carservice.repository;
 
-import com.tutorial.carservice.entity.Car;
+import com.RRF.carservice.entity.Car;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

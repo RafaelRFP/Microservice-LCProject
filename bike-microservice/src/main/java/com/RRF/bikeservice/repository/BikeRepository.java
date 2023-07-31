@@ -1,6 +1,6 @@
-package com.tutorial.bikeservice.repository;
+package com.RRF.bikeservice.repository;
 
-import com.tutorial.bikeservice.entity.Bike;
+import com.RRF.bikeservice.entity.Bike;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
