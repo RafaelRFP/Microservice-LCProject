@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bea1925-6dc1-43f9-a5a3-3946a99c5204" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../gateway-service/src/main/java/com/RRF/gatewayservice/controller/GatewayController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway-service/src/main/java/com/RRF/gatewayservice/securityConfig/SecurityClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-data/gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/gateway-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../config-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-service/target/classes/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-microservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user-microservice/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-microservice/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/java/com/RRF/gatewayservice/controller/GatewayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/main/java/com/RRF/gatewayservice/controller/GatewayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway-service/src/main/java/com/RRF/gatewayservice/securityConfig/SecurityClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateway-service/src/main/java/com/RRF/gatewayservice/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user-microservice/target/classes/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../user-microservice/target/classes/bootstrap.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -13,7 +13,6 @@ public class GatewayController {
     @GetMapping("/")
     public Mono<String> index(WebSession session) {
         return Mono.just(session.getId());
-
     }
 
     @GetMapping("/token")

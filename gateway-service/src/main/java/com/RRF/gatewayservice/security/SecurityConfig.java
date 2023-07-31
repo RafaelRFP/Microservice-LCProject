@@ -1,4 +1,4 @@
-package com.RRF.gatewayservice.securityConfig;
+package com.RRF.gatewayservice.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +9,7 @@ import org.springframework.security.web.server.SecurityWebFilterChain;
 
 @Configuration
 @EnableWebFluxSecurity
-public class SecurityClient {
+public class SecurityConfig {
 
     @Bean
     public SecurityWebFilterChain filterChain(ServerHttpSecurity http) {
