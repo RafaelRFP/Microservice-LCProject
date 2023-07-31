@@ -1,0 +1,19 @@
+2023-07-31 09:49:17,043 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-07-31 09:50:47,685 [Worker-13: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: user-microservice:user-microservice:0.0.1-SNAPSHOT @ /Users/irafa/Desktop/MyProjects/LuigiCodeProject/user-microservice/pom.xml.
+2023-07-31 09:50:48,311 [Worker-13: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /user-microservice/src/main/java
+2023-07-31 09:50:48,312 [Worker-13: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /user-microservice/src/main/resources
+2023-07-31 09:50:48,316 [Worker-13: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /user-microservice/src/test/java
+2023-07-31 09:50:48,647 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-31 09:50:48,651 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-07-31 09:50:48,654 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-31 09:50:48,655 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/irafa/Desktop/MyProjects/LuigiCodeProject/user-microservice/src/test/resources
+2023-07-31 09:50:49,750 [Worker-13: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-07-31 09:50:49,976 [Worker-13: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: user-microservice:user-microservice:0.0.1-SNAPSHOT @ /Users/irafa/Desktop/MyProjects/LuigiCodeProject/user-microservice/pom.xml.
+2023-07-31 09:50:50,078 [Worker-13: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /user-microservice/src/main/java
+2023-07-31 09:50:50,079 [Worker-13: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /user-microservice/src/main/resources
+2023-07-31 09:50:50,081 [Worker-13: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /user-microservice/src/test/java
+2023-07-31 09:50:50,205 [Worker-13: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-07-31 09:50:50,322 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-31 09:50:50,323 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-07-31 09:50:50,325 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-07-31 09:50:50,326 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/irafa/Desktop/MyProjects/LuigiCodeProject/user-microservice/src/test/resources
