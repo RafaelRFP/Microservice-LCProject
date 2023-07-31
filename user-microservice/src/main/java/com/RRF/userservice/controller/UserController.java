@@ -87,13 +87,13 @@ public class UserController {
         return ResponseEntity.ok(result);
     }
 
-    //Métodos de los Circuit Breaker definidos cómo fallbackGetCars, fallbackSaveCar, fallbackGetBikes, fallbackSaveBike
+    //Métodos de los Circuit Breaker (Resillience4j) definidos cómo fallbackGetCars, fallbackSaveCar, fallbackGetBikes, fallbackSaveBike
     private ResponseEntity<List<Car>> fallbackGetCars(@PathVariable("userId") int userId, RuntimeException e) {
         return new ResponseEntity("El usuario " + userId + " tiene los coches en el taller.", HttpStatus.OK);
     }
 
     private ResponseEntity<Car> fallbackSaveCar(@PathVariable("userId") int userId, @RequestBody Car car, RuntimeException e) {
-        return new ResponseEntity("El usuario " + userId + " tiene dinero para pagar el coche.", HttpStatus.OK);
+        return new ResponseEntity("El usuario " + userId + " no tiene dinero para pagar el coche.", HttpStatus.OK);
     }
 
     private ResponseEntity<List<Bike>> fallbackGetBikes(@PathVariable("userId") int userId, RuntimeException e) {
@@ -101,7 +101,7 @@ public class UserController {
     }
 
     private ResponseEntity<Bike> fallbackSaveBike(@PathVariable("userId") int userId, @RequestBody Bike bike, RuntimeException e) {
-        return new ResponseEntity("El usuario " + userId + " tiene dinero para pagar la moto.", HttpStatus.OK);
+        return new ResponseEntity("El usuario " + userId + " no tiene dinero para pagar la moto.", HttpStatus.OK);
     }
 
     private ResponseEntity<Map<String, Object>> fallbackGetAll(@PathVariable("userId") int userId, RuntimeException e) {
